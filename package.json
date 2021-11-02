@@ -1,0 +1,9 @@
+{
+  "devDependencies": {
+    "concurrently": "^6.3.0"
+  },
+  "scripts": {
+    "install": "concurrently \"cd home && yarn\" \"cd cart && yarn\" \"cd product && yarn\" \"cd navbar && yarn\"",
+    "start": "concurrently \"cd home && yarn start\" \"cd cart && yarn start\" \"cd product && yarn start\" \"cd navbar && yarn start\""
+  }
+}
