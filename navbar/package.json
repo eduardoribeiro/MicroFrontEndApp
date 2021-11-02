@@ -1,7 +1,7 @@
 {
   "name": "@ersystems/navbar",
   "scripts": {
-    "start": "webpack serve",
+    "start": "webpack serve --port 8081 --env isLocal",
     "start:standalone": "webpack serve --env standalone",
     "build": "concurrently yarn:build:*",
     "build:webpack": "webpack --mode=production",
